@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #3e3d57;
+  --secondary-color: #f45905;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+  --black: #000000;
+}
+
+header p{
+    color: var(--primary-color);
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  text-align: center;
+  background-color: var(--off-white);
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+}
+
+label {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+button {
+  padding: 0.6rem 0.75rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  color: var(--off-white);
+  background-color: var(--primary-color);
+}
+
+#output,
+#output-days-diff {
+  padding: 1rem;
+  display: none;
+  background-color: var(--off-white);
+  font-weight: bold;
+  margin: 0;
+}
+
+#output {
+  font-size: large;
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+}
+
+#palindrome-definition {
+    font-style: italic;
+    font-size: small;
+    margin: 0;
+    padding: 1rem;
+}

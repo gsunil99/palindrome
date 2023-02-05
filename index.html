@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fun with Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="emoji.svg"/>
+  </head>
+  <body>
+    <header>
+        <h1>Fun with Birthday</h1>
+        <p>Enter your birthday to find out something facts</p>
+    </header>
+    <div class="container">
+        <label for="input-date">select birthday</label>
+        <label for="input-date"></label>
+        <input id="input-date" type="date" placeholder="dd-mm-yyyy">
+        <div>
+            <button id="btn-calculate">find out</button>
+        </div>
+        <p id="output"></p>
+        <p id="output-days-diff"></p>
+        <p id="palindrome-definition">palindrome - a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or nurses run or (02-02-2020 here)</p>
+    </div>
+    <div id="google_translate_element"></div>
+
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement(
+				{pageLanguage: 'en'},
+				'google_translate_element'
+			);
+		}
+	</script>
+
+	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
