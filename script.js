@@ -10,7 +10,7 @@ document.getElementById("google_consent").onclick = function(){
 function handleClick() {
   output.style.display = "block";
   outputDaysDiff.style.display = "block";
-  output.style.color = "black";
+  output.style.color = "white";
 
   if (input.value == ""){
     output.innerText = "🙄 please select a date 🙄";
